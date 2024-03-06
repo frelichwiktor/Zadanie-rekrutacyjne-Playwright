@@ -3,11 +3,15 @@ import { test, expect } from "@playwright/test";
 export class productPage {
   constructor(page) {
     this.page = page;
-    this.acceptCookieButton = page.locator('#CybotCookiebotDialogBodyLevelButtonAccept');
+    this.acceptCookieButton = page.locator(
+      "#CybotCookiebotDialogBodyLevelButtonAccept"
+    );
     this.pageHeader = page.locator('[class="container container-navigation"]');
     this.pageMetaLinks = page.locator('[class="o-desktop-header__meta-links"]');
     this.pageHeaderMenu = page.locator('[class="o-desktop-header__menu"]');
-    this.productName = page.locator('[class="qa-pdp-product-name ng-star-inserted"]');
+    this.productName = page.locator(
+      '[class="qa-pdp-product-name ng-star-inserted"]'
+    );
     this.productPhoto = page.locator('[class="o-productpage__image-slider"]');
     this.productPrice = page.locator('[class="m-product-pricing"]');
   }
@@ -18,7 +22,7 @@ export class productPage {
     );
   }
 
-  async acceptCookies(){
+  async acceptCookies() {
     await this.acceptCookieButton.click();
   }
 
