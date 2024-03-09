@@ -1,8 +1,5 @@
 Projekt na potrzeby zadania rekrutacyjnego
 
-Opis:
-Ten projekt został stworzony na potrzeby zadania rekrutacyjnego.
-
 Funkcje:
 Testy wizualne dla konkretnego produktu
 Implementacja Page Object Model
