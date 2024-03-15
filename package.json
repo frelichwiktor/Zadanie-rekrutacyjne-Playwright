@@ -10,6 +10,8 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@percy/cli": "^1.28.1",
+    "@percy/playwright": "^1.0.4",
     "@playwright/test": "^1.42.1",
     "@types/node": "^20.11.24",
     "browserstack-node-sdk": "^1.31.24",

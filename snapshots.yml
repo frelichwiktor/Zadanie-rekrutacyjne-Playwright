@@ -1,0 +1,4 @@
+serve: .
+snapshots:
+  - name: Product page
+    url: https://www.24mx.pl/product/kask-cross-airoh-twist-20-czarny_pid-PM-4905040
