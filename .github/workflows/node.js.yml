@@ -21,6 +21,10 @@ jobs:
         run: npx playwright install --with-deps
       - name: Run Playwright tests
         run: npx playwright test --update-snapshots productPage.spec.js
+      - name: install percy
+        run: npm install --save-dev @percy/cli
+      - name: run percy
+        run: npx percy snapshot snapshots.yml
       - uses: actions/upload-artifact@v4
         if: always()
         with:
